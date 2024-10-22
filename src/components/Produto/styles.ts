@@ -34,32 +34,6 @@ export const Prices = styled.div`
   }
 `
 
-export const Tag = styled.span`
-  background-color: ${cores.corPrincipal};
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  padding: 8px;
-  font-size: 12px;
-  font-weight: 700;
-  color: #fff;
-`
-export const Plataformas = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  margin: 8px 0 0;
-
-  li {
-    background-color: ${cores.corPrincipal};
-    padding: 8px;
-    font-size: 10px;
-    white-space: nowrap;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    color: #fff;
-    font-weight: bold;
-  }
-`
 export const BtnComprar = styled.button`
   display: block;
   width: 100%;
